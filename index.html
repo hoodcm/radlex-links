@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RadLex links</title>
+<meta name="description" content="Links from the RSNA 2026 RadLex poster: propose a term, submit protocol names, and enter series names.">
+<style>
+:root {
+  color-scheme: light;
+  --ink: #1F2430;
+  --ink-2: #4A5160;
+  --paper: #FFFFFF;
+  --card: #EAF6F6;
+  --card-hover: #D7EEEE;
+  --purple: #43246E;
+  --band: #236264;
+  --teal: #158586;
+  --gold: #E9B348;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-12: 3rem;
+  --radius: 0.75rem;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { background: var(--paper); }
+body {
+  max-width: 40rem; margin: 0 auto; padding: var(--space-8) var(--space-4) var(--space-12);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.0625rem; line-height: 1.5; color: var(--ink); background: var(--paper);
+}
+.eyebrow { font-size: 0.9375rem; font-weight: 600; color: var(--band); }
+h1 { margin-top: var(--space-1); font-size: 2rem; line-height: 1.2; color: var(--purple); }
+.bar { width: 4rem; height: 0.3rem; margin: var(--space-4) 0; background: var(--gold); }
+.lede { color: var(--ink-2); }
+section { margin-top: var(--space-8); }
+h2 { font-size: 1.25rem; line-height: 1.3; color: var(--band); }
+h2 + .sub { margin-top: var(--space-1); font-size: 0.9375rem; color: var(--ink-2); }
+ul { list-style: none; display: grid; row-gap: var(--space-2); margin-top: var(--space-3); }
+a.link {
+  display: grid; grid-template-columns: 1fr auto; column-gap: var(--space-3); align-items: center;
+  min-height: 3rem; padding: var(--space-3) var(--space-4); border-radius: var(--radius);
+  background: var(--card); color: var(--ink); text-decoration: none;
+}
+a.link:hover { background: var(--card-hover); }
+a.link:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; }
+.label { display: block; font-weight: 600; line-height: 1.3; }
+.note { display: block; margin-top: var(--space-1); font-size: 0.9375rem; line-height: 1.4; color: var(--ink-2); }
+.chev { width: 1.25rem; height: 1.25rem; color: var(--teal); }
+footer { margin-top: var(--space-12); padding-top: var(--space-4); border-top: 1px solid #D9DDE3; font-size: 0.875rem; color: var(--ink-2); }
+</style>
+</head>
+<body>
+<header>
+  <p class="eyebrow">RSNA RadLex Committee</p>
+  <h1>Get involved with RadLex</h1>
+  <div class="bar" aria-hidden="true"></div>
+  <p class="lede">Links from the RSNA 2026 RadLex poster.</p>
+</header>
+
+<section>
+  <h2>RadLex ontology</h2>
+  <ul>
+    <li><a class="link" href="https://github.com/RSNA/RadLex/issues"><span><span class="label">Propose a term</span><span class="note">Open an issue in the RadLex repository on GitHub.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    <li><a class="link" href="https://github.com/RSNA/RadLex"><span><span class="label">RadLex on GitHub</span><span class="note">Releases and source files.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Exam names</h2>
+  <p class="sub">LOINC/RSNA Radiology Playbook</p>
+  <ul>
+    <li><a class="link" href="https://loinc.org/kb/radiology/loinc-rsna-radiology-playbook-user-guide"><span><span class="label">Read the Playbook user guide</span><span class="note">On loinc.org.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    <li><a class="link" href="https://loinc.org/search?t=1&amp;l=en_US&amp;q=class%3Arad"><span><span class="label">Search the Playbook exam names</span><span class="note">Requires a free LOINC account.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    <li><a class="link" href="mailto:informatics@rsna.org?subject=Exam%20names%20missing%20from%20the%20Playbook"><span><span class="label">Send exam names the Playbook lacks</span><span class="note">Email informatics@rsna.org.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    <li><a class="link" href="https://forums.snomed.org/g/radiology-wg"><span><span class="label">Join the SNOMED radiology content user group</span><span class="note">On the SNOMED forums.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Protocol names</h2>
+  <p class="sub">RadLex Protocol Playbook</p>
+  <ul>
+    <li><a class="link" href="https://drive.google.com/drive/folders/1nfujQ3jfI0OVslR3k8olBRlprH_EV0Nb?usp=sharing"><span><span class="label">Submit your protocol names</span><span class="note">Shared Google Drive folder.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Series names</h2>
+  <p class="sub">RadLex Series Playbook</p>
+  <ul>
+    <li><a class="link" href="https://docs.google.com/spreadsheets/d/1BlMgHNWGiSsVkhXK_XqGYt-F1z1lP01kvKK1rNPz_CQ/edit?usp=sharing"><span><span class="label">CT series names</span><span class="note">Review the CT standard and add missing series.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    <li><a class="link" href="https://docs.google.com/spreadsheets/d/1lZCe-6wVCRqRwSHEzb3eDYlbL0RgS5-siifaYG14oCI/edit?usp=sharing"><span><span class="label">MR series names</span><span class="note">Enter the MR series names your practice uses.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+    <li><a class="link" href="https://docs.google.com/spreadsheets/d/1FG9PCt35Fxf6NgxfeWRy0-5Y-BSYtS-APtBKJ4-trLY/edit?usp=sharing"><span><span class="label">PET series names</span><span class="note">Enter the PET series names your practice uses.</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <ul>
+    <li><a class="link" href="mailto:informatics@rsna.org"><span><span class="label">Email the committee</span><span class="note">informatics@rsna.org</span></span><svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg></a></li>
+  </ul>
+</section>
+
+<footer>RSNA RadLex Committee · Audrey Verde, MD, PhD, Chair · Michael Hood, MD, Vice Chair</footer>
+</body>
+</html>
